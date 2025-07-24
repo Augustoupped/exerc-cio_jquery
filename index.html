@@ -1,37 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas </title>
-    <link rel="preconnect" href="http://fonts.googleapis.com">
-    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
-
 </head>
 
 <body>
-<div></div>
-    <header>
-        <h1>Lista de tarefas</h1>
-    </header>
-    <form>
-        <h2>Inserir nova tarefa</h2>
-        <input type="url" id="Cadastrar" required placeholder="URL da imagem">
-        <button type="submit">Adicionar</button>
-    </form>
-    <ul>
-        <li>
-            <img src="./images/foto1.jpg" alt="Pintura de um gato">
-            <div class="overlay-imagem-link">
-                <a href="./images/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
-                    Ver imagem em tamanho real
-                </a>
-            </div>
-        </li>
-    </ul>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <div class="container">
+    <h1>Lista de Tarefas</h1>
+    <input type="text" id="tarefa" placeholder="Ex: ménage" />
+    <button onclick="adicionarTarefa()">Cadastrar</button>
+    <ul id="lista-tarefas"></ul>
+    </div>
+
     <script src="./main.js"></script>
 </body>
+</html>
