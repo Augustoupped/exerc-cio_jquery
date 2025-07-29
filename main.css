@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 30px; /* Aqui está o espaço entre o título e a caixa de texto */
+    margin-bottom: 30px; 
     font-size: 28px;
     color: #ffffff;
 }
@@ -39,4 +39,8 @@ input {
     border: none;
     border-radius: 8px;
     width: 70%;
+}
+
+.concluida {
+    text-decoration: line-through;
 }
