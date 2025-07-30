@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <title>HTML con JS</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
-
 <body>
     <div class="container">
-    <h1>Lista de Tarefas</h1>
-    <input type="text" id="tarefa" placeholder="Ex: ménage" />
-    <button onclick="adicionarTarefa()">Cadastrar</button>
-    <ul id="lista-tarefas"></ul>
+        <h1>EBAC Banking Internazionale </h1>
+        <h2>Componi due cifre e il tuo programma ti dirà se il valore A è maggiore del valore B </h2>
+        <form id="form-deposito">
+            <input type="text" id="campo-a" required placeholder="Campo A" />
+            <input type="text" id="campo-b" required placeholder="Campo B" />
+            <p class="error-message">
+                IL cifre B,  davere di sere maiore che il cifre A
+            </p>
+            <button id="btn-depositar" type="submit">Invia</button>
+        </form>
+        <p class="sucess-message">
+        </p>
     </div>
-
-    <script src="./main.js"></script>
 </body>
+<script src="./main.js"></script>
 </html>
